@@ -32,7 +32,9 @@ $primary:black;
     --hamburger-height: calc(var(--bar-height) * 3 + var
     (--hamburger-gap) * 2);
 }
-
+#links{
+    display: none;
+}
 .hamburger-menu{
 // --x-width: calc(var(--hamburger-height))
 
@@ -156,13 +158,22 @@ color: var(--foreground);
 h1{
     color:black;
 }
-    
+.sidebar nav {
+    color: white;
+    font-size: 43px;
+    padding: 20px;
+    margin-top: 116px;
+    position: absolute;
+    top: var(--hamburger-margin);
+    margin-right: 260px;
+    right: var(--hamburger-margin);
+}   
 
 .banner{
-    background-image: url(/Images/bg-masthead.jpg);
+    background-image: url("bg-masthead.jpg");
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 92vh;
     background-position:left center;
     background-size: cover;
     display: flex;
@@ -306,7 +317,7 @@ h5{
     font-size: 15px;
 }
 .Cheesy{
- background-image: url(/Images/bg-callout.jpg);
+ background-image: url("bg-callout.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: right;
@@ -337,7 +348,7 @@ h5{
      }  
 }
 .box5{
-    background-image: url(/Images/portfolio-1.jpg);
+    background-image: url("portfolio-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -352,7 +363,7 @@ h5{
 
 }
 .box6{
-    background-image: url(/Images/portfolio-2.jpg);
+    background-image: url("portfolio-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -365,7 +376,7 @@ h5{
     
 }
 .box7{
-    background-image: url(/Images/portfolio-3.jpg);
+    background-image: url("portfolio-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -378,7 +389,7 @@ h5{
     
 }
 .box8{
-    background-image: url(/Images/portfolio-4.jpg);
+    background-image: url("portfolio-4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
@@ -423,7 +434,7 @@ h5{
     
 }
 .LOVO{
-    background-image: url(/Images/Screenshot\ 2024-04-05\ 110452.png);
+    background-image: url("Screenshot\ 2024-04-05\ 110452.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -545,9 +556,19 @@ h1{margin-left: 58px;
     }
 }
 @media (max-width:375px) {
-   
+    .sidebar nav {
+        color: white;
+        font-size: 43px;
+        padding: 20px;
+        margin-top: 116px;
+        position: absolute;
+        top: var(--hamburger-margin);
+        margin-right: 46px;
+        right: var(--hamburger-margin);
+    }
   
 .banner{
+    height: 86vh;
     // .hamburger-menu{
     //     height: 30px;
     //     width: 2px;
@@ -564,14 +585,14 @@ h1{margin-left: 58px;
         font-size: 12px;
     }
     .sty{
-        margin-right: 62px;
-        margin-top: 230px;
+        margin-right: 19px;
+        margin-top: 301px;
     }
     .sidebar{
         
         margin-left: -80px;
-        margin-top: -400px;
-        width: 500px;
+        margin-top: -414px;
+        width: 458px;
     }
     nav{
         padding-left: 190px;
@@ -653,7 +674,7 @@ font-size: 12px;
             right: 172px;
             
             .box5{
-                width: 80%;
+                width: 67%;
                 // display: none;
                 h5{font-size: 9px;}
                 p{
@@ -661,7 +682,7 @@ font-size: 12px;
                 }
             }
             .box6{
-                width: 80%;
+                width: 67%;
                 margin-top: 12px;
                 h5{font-size: 12px;}
                 p{
@@ -669,7 +690,7 @@ font-size: 12px;
                 }
             }
             .box7{
-                width: 80%;
+                width: 67%;
                 margin-top: 12px;
                 h5{font-size: 12px;}
                 p{
@@ -677,7 +698,7 @@ font-size: 12px;
                 }
             }
             .box8{
-                width: 80%;
+                width: 67%;
                 margin-top: 12px;
                 // display: none;
                 h5{font-size: 12px;}
@@ -729,6 +750,7 @@ font-size: 12px;
 .feet{
     // margin-right: 23px;
     font-size: 9px;
+    margin-left: -1px;
     p{font-size: 8px;
     
 }
@@ -749,6 +771,22 @@ font-size: 12px;
 }
 .footer{
     margin-right: 25px;
+
+//     .all{
+//        width: 348px; 
+
+   
+   
+// }
+// .row.mt-5.mb-4{
+
+//     .row{
+//         width: 1536px;
+//     }
+// }  
+}
+.contact .con{
+    width: 183px;
 }
 .Candy{
     .boxes{
@@ -756,6 +794,14 @@ font-size: 12px;
         flex-direction: column;
     }
 }
+.about .para2{
+    width: 300px;
+ }
+ .about .para3{
+    width: 300px;
+ }
+ 
+
 //  .feet{
 //   position: relative;
 //   left: 33px;
@@ -792,7 +838,7 @@ font-size: 12px;
 }
 .hie{
     .Jesus{
-        margin: 20px;
+        margin: 41px;
     }
 }
 
