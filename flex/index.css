@@ -708,7 +708,7 @@ i {
     width: 300px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 910px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   .banner {
     height: 65vh;
   }
@@ -818,5 +818,10 @@ i {
   }
   .treehouse {
     margin-top: 55px;
+  }
+}
+@media screen and (min-width: 766px) and (max-width: 767.9px) {
+  .banner .sty {
+    margin-top: -160px;
   }
 }/*# sourceMappingURL=index.css.map */

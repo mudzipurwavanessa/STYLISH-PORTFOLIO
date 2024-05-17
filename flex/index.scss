@@ -813,7 +813,7 @@ font-size: 12px;
 }
 
 
-@media screen and (min-width:577px) and (max-width:910px){
+@media screen and (min-width:577px) and (max-width:768px){
    .banner{
    .sty{.button1{
     margin-left: 111px; 
@@ -948,4 +948,9 @@ height: 502px;
     margin-top:55px ;
   }
  
+}
+@media screen and (min-width:766px) and (max-width:767.9px) {
+    .banner .sty {
+        margin-top: -160px;
+    }
 }
