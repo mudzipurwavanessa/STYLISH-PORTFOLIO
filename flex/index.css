@@ -5,7 +5,7 @@ body {
 
 @font-face {
   font-family: "Mycustomfont";
-  src: url("/flex/SourceSans3-Regular.ttf");
+  src: url("SourceSans3-Regular.ttf");
 }
 *,
 *::after,
@@ -823,4 +823,4 @@ i {
   .treehouse {
     margin-top: 55px;
   }
-}/*# sourceMappingURL=flex.css.map */
+}/*# sourceMappingURL=index.css.map */
